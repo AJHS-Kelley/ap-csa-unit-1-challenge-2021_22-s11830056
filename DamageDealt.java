@@ -1,4 +1,4 @@
-// <Johann Burke>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/20/2021>, <9:30>, v1.0
+// <Johann Burke>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/20/2021>, <9:30>, v2.0
 // Peer Debugging by Lorenzo Kenon
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class DamageDealt {
         System.out.println("Please Input your UserName: ");
 
         String userName = myScanner.nextLine();
-        System.out.println("welcome: " + userName);
+        System.out.println("welcome human: " + userName);
 
         System.out.println("\nplease Imput name of attack:");
         String weaponAttack = myScanner.nextLine();
@@ -27,6 +27,9 @@ public class DamageDealt {
         double attackDamage = myScanner.nextDouble();
         System.out.println("attack damage is: "+ attackDamage);
 
+        double totalDamage = attackDamage * numberOfAttacks;
+
+        System.out.println("The total amount of damage is: " + totalDamage);
         
     }
 }
