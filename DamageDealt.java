@@ -1,5 +1,5 @@
 // <Johann Burke>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <10/20/2021>, <9:30>, v1.0
-
+// Peer Debugging by Ryan Kelley 
 import java.util.Scanner;
 
 public class DamageDealt {
